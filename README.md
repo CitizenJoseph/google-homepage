@@ -1,0 +1,1 @@
+Clone of Google homepage to demonstrate proficiency in HTML and CSS.

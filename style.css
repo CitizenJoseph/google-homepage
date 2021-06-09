@@ -1,0 +1,28 @@
+#main-elements
+{
+    height: 500px;
+    position: relative;
+}
+
+#google-logo
+{
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#search-bar
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+
+#bar
+{
+    width: 450px;
+    height: 30px;
+}
