@@ -1,3 +1,30 @@
+body
+{
+    margin: 0;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+li
+{
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+  }
+
 #main-elements
 {
     height: 500px;
@@ -23,6 +50,14 @@
 
 #bar
 {
-    width: 450px;
+    width: 400px;
     height: 30px;
+}
+
+#buttons
+{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -82%);
 }
