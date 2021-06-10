@@ -2,18 +2,32 @@
 <html>
     <head>
         <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
     <body>
         <ul style="top: 0;">
             <li><a href="#about">About</a></li>
             <li><a href="#store">Store</a></li>
+            <li style="float: right;"><a href="">
+                <button id="sign-in">Sign in</button>
+            </a></li>
+            <li style="float: right;"><a href="">
+                <span class="material-icons-outlined">
+                    apps
+                    </span>
+            </a></li>
             <li style="float: right;"><a href="#images">Images</a></li>
             <li style="float: right;"><a href="#gmail">Gmail</a></li>
         </ul>
         <div id="main-elements">
             <img src="./google-logo.png" id="google-logo">
             <form autocomplete="on" id="search-bar">
+                <span class="material-icons-outlined">
+                    search
+                    </span>
                 <input type="text" id="bar">
+                <img id="mic" src="./google-mic.png" alt="voice search">
             </form>
             <div id="buttons">
                 <button>Google Search</button>

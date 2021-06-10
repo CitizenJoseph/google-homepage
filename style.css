@@ -23,7 +23,14 @@ li a {
     text-align: center;
     padding: 14px 5px;
     text-decoration: none;
-  }
+}
+
+#sign-in
+{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
 
 #main-elements
 {
@@ -45,13 +52,23 @@ li a {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -65%);
+    transform: translate(-50%, -70%);
+    width: 500px;
 }
 
 #bar
 {
-    width: 400px;
-    height: 30px;
+    width: 450px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+#mic
+{
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    height: 24px;
 }
 
 #buttons
